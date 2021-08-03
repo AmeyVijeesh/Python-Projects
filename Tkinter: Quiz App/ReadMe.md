@@ -1,12 +1,11 @@
 # An amazing quiz app 
 
-A fantastic quiz app with an amazing interface. All the classic features with a touch of extraordinary. 
-
-It is a cut above the others and the program is amazing. You can improve your knowledge with this amazing program!
+A fantastic quiz app with an amazing interface, and good questions. 
+You can improve your knowledge with this amazing program!
 
 # Features:
 
-This program has the more features than any other quiz app. Login, Levels, Statistics and much more...
+This program has the many features, they include Login, Levels, Statistics and much more...
 
 - With a signup and login system. Your details get saved even when you close the app as it is stored in a database.
 
@@ -41,8 +40,5 @@ The modules needed are:
 
 # 
 
-Hope you understand the code and if you encounter any issues, please do contact me. 
-
-The code is tested and it does not give out any errors.
-
+Works in Windows 10.
 Thank you!
