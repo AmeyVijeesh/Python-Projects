@@ -12,7 +12,7 @@ pip3 install python-tk
 ```
 
 The `Pillow` module has also been used for rendering the image. 
-```
+``` 
 pip3 instal PIL
 ```
 The `requests` has been used as well.
