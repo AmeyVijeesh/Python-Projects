@@ -16,7 +16,7 @@ You will need Tkinter for the Graphic user interface, and you will need modules 
 
 - Requests
 
-#
+#. 
 
 So hope you enjoy the program and the code is looked for errors. However, if you encounter any, raise an issue.
 
