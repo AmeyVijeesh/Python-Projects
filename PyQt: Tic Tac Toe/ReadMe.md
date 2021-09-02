@@ -6,3 +6,6 @@ A Tic tac toe app, with single-player mode and multiplayer (***no connections***
 
 - Themes
 - Connection with sockets (multiplayer)
+- Images
+
+#
