@@ -16,6 +16,10 @@ A great browser developed using the PyQt5 module in python. A great browser, fea
 
 - Tabs 
 
-# 
+# Todo:
 
-Thank you!
+- History within the GUI
+- Reopen the last closed tab
+- Accounts
+
+#
