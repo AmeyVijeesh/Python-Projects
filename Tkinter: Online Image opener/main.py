@@ -14,7 +14,7 @@ label = Label(root, bg='white')
 label.pack(side='top')
 
 var = StringVar()
-entry = Entry(root, justify='center', textvariable=var)
+entry = Entry(root, justify='center', textvariable=var) 
 entry.focus_set()
 entry.place(x=200, y=40)
 
