@@ -5,7 +5,7 @@ from PIL import Image, ImageTk # pip install Pillow
 from io import BytesIO # No installation needed.
 
 root = Tk()
-root.title('Online Image Viewer - Open online Images!')
+root.title('Online Image Viewer - Open online Images from a url!')
 root.geometry('600x500') 
 
 Label(root, text='', width=22, height=9).pack(side=TOP)
