@@ -17,7 +17,7 @@ var = StringVar()
 entry = Entry(root, justify='center', textvariable=var) 
 entry.focus_set()
 entry.place(x=200, y=40)
-
+ 
 web_imgs = []
 
 
