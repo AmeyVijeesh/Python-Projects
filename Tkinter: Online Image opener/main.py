@@ -1,8 +1,8 @@
 
-from tkinter import *
-import requests
-from PIL import Image, ImageTk
-from io import BytesIO
+from tkinter import * # pip install python-tk
+import requests # pip install requests
+from PIL import Image, ImageTk # pip install Pillow
+from io import BytesIO # No installation needed.
 
 root = Tk()
 root.title('Online Image Viewer - Open online Images!')
