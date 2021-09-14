@@ -1,15 +1,3 @@
-"""
-
-
-__author__ = Amey Vijeesh
-Code lines = 1700
-days taken to complete = 25 days
-program type = Word Processor
-program name = Amey's Word Processor (AWP)
-
-
-
-"""
 #!/usr/bin/python3
 # -- coding: utf-8 --
 
@@ -36,8 +24,8 @@ import os
 import webbrowser
 
 
-tab = "\t"
-eof = "\n"
+tab = "\t" # tab
+eof = "\n" # end of line
 
 table_header2 = "<table></tr><tr><td>    Column1    </td><td>    Column2    </td></tr></table>"
 table_header3 = "<table></tr><tr><td>    Column1    </td><td>    Column2    </td><td>    Column3    </td></tr></table>"
@@ -502,12 +490,6 @@ p, li { white-space: pre-wrap; }
             ot = self.editor.textCursor().selection().toHtml()
             self.msgbox("HTML", str(ot))
 
-
-    #            self.editor.textCursor().insertText(tab)
-    #            self.editor.textCursor().insertHtml(QTextDocumentFragment.toHtml(ot))
-    #            self.setModified(True)
-
-
     def indentLessLine(self):
 
         if not self.editor.textCursor().selectedText() == "":
@@ -578,8 +560,6 @@ p, li { white-space: pre-wrap; }
         self.file_menu.addSeparator()
 
         self.file_menu.addAction(self.exitAct)
-
-        #        bar.setStyleSheet(myStyleSheet(self))
 
         edit_menu = bar.addMenu("Edit")
 
@@ -698,15 +678,12 @@ p, li { white-space: pre-wrap; }
 
         layoutV.addWidget(self.edit_tb)
         layoutV.addWidget(self.editor)
-
-
-        ### main window
+        
         mq = QWidget(self)
         mq.setLayout(layoutV)
         self.setCentralWidget(mq)
         self.statusBar().showMessage("Welcome to Amey's Word Processor (AWP) ")
 
-        # Event Filter ...
         self.installEventFilter(self)
 
         self.cursor = QTextCursor()
