@@ -429,8 +429,6 @@ class myEditor(QMainWindow):
         self.addToolBar(self.file_tb)
         self.addToolBar(self.format_tb)
 
-        #        self.addToolBarBreak(Qt.TopToolBarArea)
-
         self.addToolBar(self.font_tb)
 
 
@@ -682,7 +680,7 @@ p, li { white-space: pre-wrap; }
         mq = QWidget(self)
         mq.setLayout(layoutV)
         self.setCentralWidget(mq)
-        self.statusBar().showMessage("Welcome to Amey's Word Processor (AWP) ")
+        self.statusBar().showMessage("New file - ")
 
         self.installEventFilter(self)
 
@@ -946,7 +944,7 @@ p, li { white-space: pre-wrap; }
                     self.statusBar().showMessage("link added")
 
                 else:
-                    self.statusBar().showMessage("this is no link")
+                    self.statusBar().showMessage("this is not a link")
             else:
                 self.statusBar().showMessage("not changed")
         else:
@@ -1670,7 +1668,5 @@ if __name__ == '__main__':
         print(sys.argv[1])
 
         win.openFileOnStart(sys.argv[1])
-
     app.exec_()
 
-# -----End------
