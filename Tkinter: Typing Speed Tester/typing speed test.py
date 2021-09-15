@@ -1,6 +1,3 @@
-"""Typing speed tester. You have to type the word shown accurately and before the time is over.
- Once time is over, it will display final score."""
-
 # Importing required libraries
 from tkinter import *
 import random
@@ -25,7 +22,8 @@ words = ['interesting', 'excitement', 'fastest', 'slowest', 'remember', 'ordinar
          'absolute', 'account', 'argument', 'building', 'brother', 'efficiency', 'encouraged', 'typewriter',
          'percentage', 'performance', 'department', 'dependent', 'leadership', 'laboratory', 'networking',
          'navigator', 'category', 'challenge', 'recognized', 'reasonable', 'technology', 'transition', 'tournament',
-         'scientific', 'statements', 'strategies', 'zigzagging', 'yourselves', 'themselves', 'weaknesses', ]
+         'scientific', 'statements', 'strategies', 'zigzagging', 'yourselves', 'themselves', 'weaknesses'] # You can add more words. 
+# The more the words, the more options for the player.
 
 
 def labelMarquee():
@@ -97,9 +95,9 @@ random.shuffle(words)
 words_label = Label(root, text=words[0], font=('sans serif', 18, 'bold'), width=20, fg='silver', bg='white')
 words_label.place(x=105, y=100)
 
-instruction = Label(root, text='Type the above word as fast as you can!', font=('verdana', 10, 'underline', 'bold'),
+instructions = Label(root, text='Type the above word as fast as you can!', font=('verdana', 10, 'underline', 'bold'),
                     bg='white', fg='brown')
-instruction.place(x=115, y=172)
+instructions.place(x=115, y=172)
 
 words_entry = Entry(root, font=('calibri bold', 16), relief=FLAT, justify='center', width=35, bg='white',
                     fg='light blue')
