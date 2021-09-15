@@ -9,8 +9,6 @@ A useful calculator made using PyQt5. It has features like:
 
 # Modules needed:
 
-You will need the Pyqt5 module
+You will need the Pyqt5 module (You can also use PySide with the needed modifications)
 
 #
-
-Thank you!
