@@ -52,6 +52,6 @@ lowerFrame = tk.Frame(root, bg='#80c1ff', bd=10)
 lowerFrame.place(relx=0.5, rely=0.3, relwidth=0.75, relheight=0.5, anchor='n')
 
 label = tk.Label(lowerFrame, font=('open sans', 20))
-label.place(relwidth=1, relheight=1)
+label.place(relwidth=1, relheight=1) 
 
 root.mainloop()
