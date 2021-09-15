@@ -17,5 +17,8 @@ You will need the Tkinter and the requests libraries -
 ```
 pip3 install python-tk
 ```
+```
+pip3 install requests
+```
 
 #
