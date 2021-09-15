@@ -4,13 +4,13 @@ from PyQt5.QtWidgets import QMessageBox
 
 import pyttsx3
 
-# Variables
+# Variables - ply: player
 plyFlag = 0
 plyScr1 = 0
 plyScr2 = 0
 mode = ' '
 board = [' ' for x in range(10)]
-win = False
+win = False # Won the game or lost the game
 
 
 class Ui_MainWindow(object):
@@ -688,7 +688,7 @@ class Ui_MainWindow(object):
 
         self.speak("Score has been reset to zero")
 
-    # Main Function for Human Mode
+    # Main Function for PVP mode
     def human(self):
 
         global mode
