@@ -22,3 +22,5 @@ pip3 install requests
 ```
 
 #
+
+**Tested in Windows 10 only. Not tested in Mac OSX**
