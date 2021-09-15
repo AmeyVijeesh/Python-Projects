@@ -1,6 +1,6 @@
 # Weather-App
 
-An app to research the weather for you. 
+Accurate weather app that uses web scraping to collect information.
 
 Features:
 
@@ -8,14 +8,14 @@ Features:
 
 ![image](https://user-images.githubusercontent.com/74102654/109374692-1cba2980-78dd-11eb-8256-c73af94e4452.png)
 
-- Accurate results, taken from
+- Accurate results, taken from OpenWeather API
 
 # Modules needed:
 
-You will need the Tkinter and the requests libraries
+You will need the Tkinter and the requests libraries - 
+
+```
+pip3 install python-tk
+```
 
 #
-
-Hope you find the code helpful
-
-Thank you!
