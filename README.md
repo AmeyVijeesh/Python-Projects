@@ -14,3 +14,5 @@ I have created separate folders for each of the projects so that you can find pr
 - Add more projects!
 
 # 
+
+**Most of the apps are tested in Windows 10. However, some of them are also tested in Mac OS.
