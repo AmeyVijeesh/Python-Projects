@@ -1,3 +1,4 @@
+# Incomplete windows version - more features soon.
 from tkinter import *
 from tkinter.ttk import Notebook, Combobox
 from tkinter import font
