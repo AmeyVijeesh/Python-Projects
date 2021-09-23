@@ -834,4 +834,5 @@ start_btn.place(x=480, y=5)
 start(time_label)
 root.after(200, text.redraw())
 
+# mainloop
 root.mainloop()
