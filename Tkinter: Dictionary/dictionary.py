@@ -1,7 +1,7 @@
-# Importing tkinter for GUI
+
 from tkinter import *
 from tkinter.font import Font
-# These are the imports for scraping the information from the webpage
+
 from PyDictionary import PyDictionary
 import requests
 from bs4 import BeautifulSoup
@@ -11,10 +11,10 @@ dic = PyDictionary()
 
 
 def init():
-    """This includes the details of the mainwindow and fonts used here"""
+
     global root
     root = Tk()
-    root.config(bg='#FFFFFF')  # Pure white
+    root.config(bg='#FFFFFF') 
     root.title('Dictionary')
     root.geometry('500x350')
     root.resizable(False, False)
@@ -34,13 +34,13 @@ def init():
 
 
 def menu():
-    """The main definition"""
+
     init()
     global not_available_message
     global search_input
 
     def input():
-        """In this definition, the user inputs the word to search for the meaning"""
+
 
         global search_input
         global tab_frame
@@ -56,7 +56,7 @@ def menu():
         antonym = []
         meaning = dic.meaning(word)
 
-        url = 'https://www.synonym.com/synonyms/' + word  # The website in which the meanings are scraped
+        url = 'https://www.synonym.com/synonyms/' + word 
         page = requests.get(url)
 
         soup = BeautifulSoup(page.content, 'html.parser')
