@@ -13,4 +13,4 @@ I've created separate folders for each of the projects so that you can find proj
 
 # 
 
-**Most of the apps are tested in Windows 10. However, some of them are also tested in Mac OS.**
+**Most of the apps are tested in Windows 10. However, some of them also have been tested in Mac OS.**
