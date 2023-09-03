@@ -1,6 +1,6 @@
 # A scientific calculator made using PyQt5
 
-A useful calculator made using PyQt5. It has features like:
+A useful calculator made using PyQt5. Main functions:
 
 - Addition
 - Subtraction
