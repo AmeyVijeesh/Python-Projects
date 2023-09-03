@@ -8,4 +8,4 @@ Made using PyQt5 Qscintilla. Includes syntax highlighting and autocomplete using
 - Add accounts
 - Track last opened files
 
-# NOTE: This project was made in Python 3.8
+# NOTE: This project was made in Python 3.8 and PyQt5
