@@ -11,4 +11,7 @@ A useful calculator made using PyQt5. Main functions:
 
 You will need the Pyqt5 module (You can also use PySide with the needed modifications)
 
-#
+# TODO:
+- More functions
+- Implementation of measurements
+- Better UI
